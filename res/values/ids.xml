@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ad_layout">false</item>
+    <item type="id" name="ll_root">false</item>
+    <item type="id" name="tv_app_title">false</item>
+    <item type="id" name="btn_back">false</item>
+    <item type="id" name="iv_font_small">false</item>
+    <item type="id" name="iv_font_big">false</item>
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="tv_author">false</item>
+    <item type="id" name="tv_content">false</item>
+    <item type="id" name="tv_desc">false</item>
+    <item type="id" name="ll_ad">false</item>
+    <item type="id" name="btnRecord">false</item>
+    <item type="id" name="ib_play">false</item>
+    <item type="id" name="tv_type">false</item>
+    <item type="id" name="iv_record">false</item>
+    <item type="id" name="iv_enter">false</item>
+    <item type="id" name="btn_more">false</item>
+    <item type="id" name="lv_catelog">false</item>
+    <item type="id" name="btn_all">false</item>
+    <item type="id" name="btn_search">false</item>
+    <item type="id" name="btn_type">false</item>
+    <item type="id" name="btn_author">false</item>
+    <item type="id" name="tv_help">false</item>
+    <item type="id" name="gv_more">false</item>
+    <item type="id" name="voice_view">false</item>
+    <item type="id" name="iv_logo">false</item>
+    <item type="id" name="tv_tip">false</item>
+    <item type="id" name="radioGroup1">false</item>
+    <item type="id" name="radio0">false</item>
+    <item type="id" name="radio1">false</item>
+    <item type="id" name="radio2">false</item>
+    <item type="id" name="et_word">false</item>
+</resources>

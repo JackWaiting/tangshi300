@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Three Hundred Tang Poems</string>
+    <string name="str20150">Poem</string>
+    <string name="str20141">Return</string>
+    <string name="str20152">Inquiry</string>
+    <string name="str20151">Comment</string>
+    <string name="str20146">By poet</string>
+    <string name="str20147">Chinese ancient poetry directory</string>
+    <string name="str20148">Click to open , if not installed, the application will open the market</string>
+    <string name="str20149">Title</string>
+    <string name="str20142">Directory</string>
+    <string name="str20143">Whole</string>
+    <string name="str20144">Find</string>
+    <string name="str20145">By Type</string>
+    <string name="tip0">Local data is being read ..</string>
+    <string name="tip1">Keyword Search</string>
+    <string name="option">Function</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="dlg_exit_tip">You sure you want to quit? If you feel this application is good, please give star rating, thank you!</string>
+    <string name="dlg_exit">Quit</string>
+    <string name="dlg_cancel">Cancel</string>
+    <string name="dlg_support">Support</string>
+</resources>

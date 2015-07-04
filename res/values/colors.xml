@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_blue">#ffe2f4fb</color>
+    <color name="white_purple">#ffe2f4fb</color>
+    <color name="white_green">#ffe2f4fb</color>
+    <color name="white_orange">#ffe2f4fb</color>
+    <color name="white_red">#ffe2f4fb</color>
+    <color name="light_blue">#ff8ad5f0</color>
+    <color name="light_purple">#ffd6adeb</color>
+    <color name="light_green">#ffc5e26d</color>
+    <color name="light_orange">#ffffd980</color>
+    <color name="light_red">#ffff9494</color>
+    <color name="blue">#ff2cb1e1</color>
+    <color name="purple">#ffc182e0</color>
+    <color name="green">#ff92c500</color>
+    <color name="orange">#ffffb61c</color>
+    <color name="red">#fff83a3a</color>
+    <color name="dark_blue">#ff0099cc</color>
+    <color name="dark_purple">#ff9933cc</color>
+    <color name="dark_green">#ff669900</color>
+    <color name="dark_orange">#ffff8a00</color>
+    <color name="dark_red">#ffcc0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_gray">#ffababab</color>
+    <color name="gray">#ff898989</color>
+    <color name="dark_gray">#ff454545</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_transparent">#88000000</color>
+    <color name="white_transparent">#88ffffff</color>
+</resources>

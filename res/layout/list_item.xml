@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/tv_title"
+            style="@style/black_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6.0dip"
+            android:text="TextView"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@id/tv_type"
+            style="@style/black_normal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/iv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6.0dip"
+        android:src="@drawable/record_file" />
+
+    <ImageView
+        android:id="@id/iv_enter"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_margin="5.0dip"
+        android:scaleType="center"
+        android:src="@drawable/more" />
+
+</LinearLayout>

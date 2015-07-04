@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffbfbfb"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:background="@drawable/toolbar" >
+
+        <Button
+            android:id="@id/btn_back"
+            android:layout_width="64.0dip"
+            android:layout_height="46.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_left"
+            android:paddingLeft="6.0dip"
+            android:text="@string/str20141"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@id/tv_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1.0"
+            android:text="@string/str20147"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:background="#ffeeeeee"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@id/tv_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:text="@string/str20148"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffff700c" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@id/gv_more"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_gravity="center"
+        android:layout_margin="8.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/item_bg"
+        android:columnWidth="72.0dip"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="5.0dip"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5.0dip" />
+
+    <include
+        android:id="@id/ll_ad"
+        layout="@layout/ad" />
+
+</LinearLayout>

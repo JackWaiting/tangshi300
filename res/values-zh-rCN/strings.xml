@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">唐诗三百首</string>
+    <string name="str20150">诗歌</string>
+    <string name="str20141">返回</string>
+    <string name="str20152">查询</string>
+    <string name="str20151">注解</string>
+    <string name="str20146">按诗人</string>
+    <string name="str20147">中国古代诗词目录</string>
+    <string name="str20148">点击打开，如果没有安装，将打开应用市场</string>
+    <string name="str20149">标题</string>
+    <string name="str20142">目录</string>
+    <string name="str20143">全部</string>
+    <string name="str20144">查找</string>
+    <string name="str20145">按类型</string>
+    <string name="tip0">正在读取本地数据..</string>
+    <string name="tip1">关键字查询</string>
+    <string name="option">功能</string>
+    <string name="copy">复制</string>
+    <string name="share">分享</string>
+    <string name="dlg_exit_tip">确定要退出吗？</string>
+    <string name="dlg_exit">退出</string>
+    <string name="dlg_cancel">取消</string>
+    <string name="dlg_support">支持</string>
+</resources>

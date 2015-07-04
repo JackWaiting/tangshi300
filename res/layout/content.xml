@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/ll_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:background="@drawable/toolbar" >
+
+        <TextView
+            android:id="@id/tv_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ffffffff"
+            android:textIsSelectable="true" />
+
+        <Button
+            android:id="@id/btn_back"
+            android:layout_width="64.0dip"
+            android:layout_height="46.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_left"
+            android:paddingLeft="6.0dip"
+            android:text="@string/str20141"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@id/iv_font_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/font_small" />
+
+        <ImageView
+            android:id="@id/iv_font_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_font_small"
+            android:src="@drawable/font_big" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_margin="8.0dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/item_bg2" >
+
+        <LinearLayout
+            android:id="@id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/tv_title"
+                style="@style/black_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="标题"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="#ff666666" />
+
+            <TextView
+                android:id="@id/tv_author"
+                style="@style/black_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="作者"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="#ff666666" />
+
+            <TextView
+                android:id="@id/tv_content"
+                style="@style/black_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="16.0dip"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center_horizontal"
+                android:lineSpacingMultiplier="1.6"
+                android:text="内容"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="20.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="#ff666666" />
+
+            <TextView
+                android:id="@id/tv_desc"
+                style="@style/black_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5.0dip"
+                android:lineSpacingMultiplier="1.3"
+                android:text="注解"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@id/ll_ad"
+        layout="@layout/ad" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="#ff6d84a2" >
+
+        <Button
+            android:id="@id/btnRecord"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/mm_title_btn"
+            android:gravity="center"
+            android:text="按住录音"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="14.0sp" />
+
+        <ImageButton
+            android:id="@id/ib_play"
+            android:layout_width="88.0dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/mm_title_btn"
+            android:scaleType="center"
+            android:src="@drawable/ic_media_play" />
+    </LinearLayout>
+
+</LinearLayout>

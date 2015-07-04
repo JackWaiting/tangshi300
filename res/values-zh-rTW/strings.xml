@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">唐詩三百首</string>
+    <string name="str20150">詩歌</string>
+    <string name="str20141">返回</string>
+    <string name="str20152">查詢</string>
+    <string name="str20151">註解</string>
+    <string name="str20146">按詩人</string>
+    <string name="str20147">中國古代詩詞目錄</string>
+    <string name="str20148">點擊打開，如果沒有安裝，將打開應用市場</string>
+    <string name="str20149">標題</string>
+    <string name="str20142">目錄</string>
+    <string name="str20143">全部</string>
+    <string name="str20144">查找</string>
+    <string name="str20145">按類型</string>
+    <string name="tip0">正在讀取本地數據..</string>
+    <string name="tip1">關鍵字查詢</string>
+    <string name="option">功能</string>
+    <string name="copy">複製</string>
+    <string name="share">分享</string>
+    <string name="dlg_exit_tip">確定要退出嗎？如果覺得應用不錯，請幫助評價給星，謝謝。</string>
+    <string name="dlg_exit">退出</string>
+    <string name="dlg_cancel">取消</string>
+    <string name="dlg_support">支持</string>
+</resources>

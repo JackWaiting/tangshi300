@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/voice_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/voice_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:layout_marginTop="24.0dip"
+        android:src="@drawable/ic_voice" />
+
+    <TextView
+        android:id="@id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:text="松开完成录音"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/white" />
+
+</LinearLayout>

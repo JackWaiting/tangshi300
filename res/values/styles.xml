@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="black_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="black_normal">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="white_bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="white_noraml">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="dialog_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_appear</item>
+        <item name="android:windowExitAnimation">@anim/dialog_disappear</item>
+    </style>
+    <style name="theme_voice_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+</resources>
